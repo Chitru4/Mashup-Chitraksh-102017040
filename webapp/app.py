@@ -31,7 +31,7 @@ def index():
 
 def send_email(singer_name, to, zip_file):
     # Replace YOUR_SENDGRID_API_KEY with your SendGrid API key
-    api_key = "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"
+    api_key = "Enter your api key"
     headers = {
         "Authorization": "Bearer {}".format(api_key),
         "Content-Type": "application/json",
@@ -80,4 +80,4 @@ def send_email(singer_name, to, zip_file):
 
 if __name__ == '__main__':
     app.run(host='0.0.0.0', port=8000)
-    api = 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
+    
