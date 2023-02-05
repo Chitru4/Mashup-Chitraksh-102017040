@@ -7,7 +7,7 @@ long_description = (this_directory / "README.md").read_text()
 setup(
   name = 'Mashup-Chitraksh-102017040',
   packages = ['Mashup-Chitraksh-102017040'],
-  version = '0.0.3',      
+  version = '0.0.1',      
   license='MIT',        
   description = 'This module creates a mashup of songs with your favorite singers with a single click.',
   long_description=long_description,
@@ -16,7 +16,7 @@ setup(
   author_email = 'chitraksh24@gmail.com',      
   url = 'https://github.com/Chitru4/Mashup-Chitraksh-102017040',
   download_url = 'https://github.com/Chitru4/Mashup-Chitraksh-102017040/archive/refs/tags/v_0.1.tar.gz',
-  keywords = ['TOPSIS', 'RANKING', 'PROJECT', 'UCS654'],   
+  keywords = ['MASHUP', 'YOUTUBE', 'PROJECT', 'UCS654','MUSIC','MP3'],   
   install_requires=[           
           'pytube',
           'pydub',
