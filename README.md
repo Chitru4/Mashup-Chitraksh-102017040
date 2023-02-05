@@ -3,7 +3,7 @@
 ## Roll No. 102017040
 
 ## Description
-This module creates a mashup of songs with your favorite singers with a single click.
+This module creates a mashup of songs of your favorite singer with a single click.
 
 ## Requirements
 ``` 
