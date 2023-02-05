@@ -16,7 +16,7 @@ def index():
         duration_of_each_video = int(request.form.get("duration_of_each_video"))
         email = request.form.get("email")
 
-        #mash(singer_name,number_of_videos,duration_of_each_video)
+        mash(singer_name,number_of_videos,duration_of_each_video)
         # Generate a dummy zip file
         with zipfile.ZipFile("videos.zip", "w") as zip:
             zip.write("out.mp3")
